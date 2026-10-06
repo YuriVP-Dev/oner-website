@@ -1,0 +1,30 @@
+.pdp { padding-top: 7rem; padding-bottom: 5rem; }
+.back { display: inline-block; margin-bottom: 2rem; }
+.pdp__grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
+.pdp__media { position: relative; aspect-ratio: 1 / 1; background: var(--card); border: 1px solid var(--line); overflow: hidden; }
+.pdp__media img { width: 100%; height: 100%; object-fit: contain; }
+.pdp__info h1 { font-size: clamp(2.6rem, 5.5vw, 4.4rem); line-height: .9; margin-bottom: 1rem; }
+.pdp__price { margin: 0 0 1.5rem; color: var(--neon); font: 900 2rem/1 var(--head); }
+.pdp__desc { max-width: 34rem; margin: 0 0 2rem; color: rgba(255,255,255,.55); font-weight: 300; }
+.opt { margin: 0 0 1.5rem; }
+.opt h4 { margin: 0 0 .75rem; font-size: .6rem; font-weight: 800; letter-spacing: .25em; text-transform: uppercase; color: rgba(255,255,255,.45); }
+.sizes { display: flex; flex-wrap: wrap; gap: .5rem; }
+.sizes button { min-width: 3rem; padding: .7rem .6rem; background: transparent; color: #cfd5e0; border: 1px solid rgba(255,255,255,.14); font-size: .7rem; font-weight: 800; transition: .15s; }
+.sizes button:hover { border-color: var(--neon); }
+.sizes button[aria-checked="true"] { background: var(--neon); color: var(--bg); border-color: var(--neon); }
+.qty { display: inline-flex; border: 1px solid rgba(255,255,255,.14); }
+.qty button { width: 2.6rem; background: none; border: 0; color: #fff; font-size: 1.1rem; }
+.qty button:hover { color: var(--neon); }
+.qty span { min-width: 2.5rem; display: grid; place-items: center; font-weight: 600; }
+.pdp__buy { display: flex; flex-wrap: wrap; gap: .75rem; margin-bottom: 2.5rem; }
+.pdp__buy .btn { flex: 1 1 11rem; text-align: center; }
+.specs { margin: 0; border-top: 1px solid var(--line); }
+.specs div { display: flex; justify-content: space-between; gap: 1rem; padding: .9rem 0; border-bottom: 1px solid var(--line); font-size: .875rem; }
+.specs dt { color: rgba(255,255,255,.4); }
+.specs dd { margin: 0; text-align: right; }
+.related { padding-bottom: 6rem; }
+.related h2 { font-size: 2.2rem; margin-bottom: 2rem; }
+a.card__img { display: block; }
+.toast { position: fixed; left: 50%; bottom: 2rem; z-index: 60; transform: translate(-50%, 1rem); padding: .85rem 1.4rem; background: var(--neon); color: var(--bg); font-size: .65rem; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; opacity: 0; pointer-events: none; transition: .3s; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+@media (max-width: 860px) { .pdp__grid { grid-template-columns: 1fr; } }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Produto | ONER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800;900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/produto.css">
+</head>
+<body>
+
+<nav class="nav is-scrolled">
+  <div class="wrap nav__in">
+    <a href="index.html"><img class="nav__logo" src="img/logo-oner.png" alt="ONER"></a>
+    <div class="nav__links">
+      <a href="index.html#produtos" class="on">Vorn</a>
+      <a href="index.html#numeros">Tecnologia</a>
+      <a href="index.html#produtos">Acessórios</a>
+      <a href="index.html#manifesto">Manifesto</a>
+    </div>
+    <div class="nav__cart">
+      <button class="bag" aria-label="Sacola">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0"/></svg>
+        <span>2</span>
+      </button>
+      <button class="btn btn--sm">Carrinho</button>
+    </div>
+  </div>
+</nav>
+
+<main class="wrap pdp" id="pdp"></main>
+<section class="wrap related" id="related"></section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__legal">
+      <span>© 2026 ONER. Todos os direitos reservados.</span>
+      <a href="index.html">Voltar ao início</a>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status"></div>
+<script src="js/produtos.js"></script>
+</body>
+</html>
