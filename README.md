@@ -1,6 +1,5 @@
-
 # ONER — High-Performance Goalkeeper Gear
-<img width="1000" height="409" alt="LOGOLGO" src="https://github.com/user-attachments/assets/ecff8f7c-f526-4861-bb0b-0cdb0c71c111" />
+<img width="2784" height="1111" alt="logos" src="https://github.com/user-attachments/assets/5604d47d-1589-4dde-b5d3-c2cafb2f080a" />
 <br>
 
 
